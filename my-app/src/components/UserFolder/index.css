@@ -1,0 +1,41 @@
+.textarea {
+    border: none;
+    outline: none;
+    background-color: beige;
+    color: black;
+}
+.inputElements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.elements {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.labeltext {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 120px;
+}
+.content {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 13px;
+}
+.button {
+    color: #ffffff;
+    background-color: rgb(18, 52, 138);
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-size: 12px;
+    padding: 10px 15px;
+    margin: 3px;
+}
